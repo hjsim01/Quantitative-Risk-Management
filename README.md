@@ -18,7 +18,7 @@ and two confidence levels.
 - Mardia's multivariate normality test implemented from scratch; normality rejected for
   all stocks
 
-### [Coursework project 3 — Volatility Modelling & Market Crash Prediction](./Coursework project-3-garch-volatility/)
+### [Coursework project 3 — Volatility Modelling & Market Crash Prediction](./Volatility_Modeling/)
 Replication of Kim et al. (2011) using S&P 500 daily returns (2001–2020). Six volatility
 models estimated and evaluated on their ability to predict the March 2020 COVID crash.
 
