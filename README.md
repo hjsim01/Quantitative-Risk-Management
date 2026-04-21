@@ -58,7 +58,7 @@ peaks-over-threshold (GPD/POT), plus copula-based aggregate risk for a 3-asset p
 ## Tech stack
 
 Python · NumPy · SciPy · Pandas · Matplotlib · statsmodels · scikit-learn ·
-`arch` · yFinance · Bloomberg Terminal (Coursework project 4 data)
+`arch` · yFinance 
 
 ## Reference
 
