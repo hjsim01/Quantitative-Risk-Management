@@ -6,7 +6,7 @@ value theory, and copula-based dependence modelling. All implemented in Python.
 
 ## coursework projects
 
-### [Coursework project 2 — Factor Models, PCA & VaR Backtesting](./Factor_PCA_VaR/)
+### [Coursework project 1 — Factor Models, PCA & VaR Backtesting](./Factor_PCA_VaR/)
 Two-factor market model for a 5-stock tech portfolio (AAPL, MSFT, NVDA, AMD, INTC),
 PCA-based risk decomposition, and comprehensive VaR backtesting across three methods
 and two confidence levels.
@@ -18,7 +18,7 @@ and two confidence levels.
 - Mardia's multivariate normality test implemented from scratch; normality rejected for
   all stocks
 
-### [Coursework project 3 — Volatility Modelling & Market Crash Prediction](./Volatility_Modeling/)
+### [Coursework project 2 — Volatility Modelling & Market Crash Prediction](./Volatility_Modeling/)
 Replication of Kim et al. (2011) using S&P 500 daily returns (2001–2020). Six volatility
 models estimated and evaluated on their ability to predict the March 2020 COVID crash.
 
@@ -29,7 +29,7 @@ models estimated and evaluated on their ability to predict the March 2020 COVID 
   supports joint estimation; used `scipy.optimize.minimize` with L-BFGS-B
 - Only GARCH (Student-t) passes all Christoffersen backtesting tests
 
-### [Coursework project 4 — Extreme Value Theory & Aggregate Risk](./Coursework project-4-evt-aggregate-risk/)
+### [Coursework project 3 — Extreme Value Theory & Aggregate Risk](./ExtremeValueTheory&AggRisk/)
 EVT analysis of Nikkei 225 tail risk (2015–2025) using block maxima (GEV) and
 peaks-over-threshold (GPD/POT), plus copula-based aggregate risk for a 3-asset portfolio.
 
@@ -54,22 +54,6 @@ peaks-over-threshold (GPD/POT), plus copula-based aggregate risk for a 3-asset p
 | Statistical testing | KS test, Jarque-Bera, Mardia multivariate normality |
 | Implementation | Custom MLE, bootstrap standard errors, Monte Carlo simulation |
 
-## Repo structure
-
-```
-mth5510-quantitative-risk/
-├── README.md
-├── Coursework project-2-factor-pca-var/
-│   ├── README.md
-│   └── Coursework project2.ipynb
-├── Coursework project-3-garch-volatility/
-│   ├── README.md
-│   └── Coursework project3.ipynb
-└── Coursework project-4-evt-aggregate-risk/
-    ├── README.md
-    ├── Part1_and_4.ipynb
-    └── Part2_and_3.ipynb
-```
 
 ## Tech stack
 
